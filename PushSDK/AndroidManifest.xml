@@ -107,7 +107,7 @@
             android:exported="true"
             android:process=":channel">
             <intent-filter>
-                <action android:name="${applicationId}.intent.action.COMMAND" />
+                <action android:name="com.umeng.soexample.intent.action.COMMAND" />
             </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.PACKAGE_REMOVED" />
@@ -154,7 +154,7 @@
 
         <provider
             android:name="com.umeng.message.provider.MessageProvider"
-            android:authorities="${applicationId}.umeng.message"
+            android:authorities="com.umeng.soexample.umeng.message"
             android:exported="false">
             <grant-uri-permission android:pathPattern=".*" />
         </provider>
