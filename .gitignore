@@ -6,14 +6,10 @@
 /build
 /captures
 .externalNativeBuild
-settings.gradle
 PushSDK/build/**
 app/bin
 PushSDK/bin/**
 PushSDK/.settings/**
 PushSDK/.project
 PushSDK/.classpath
-app/project.properties
 app/gen/**
-app/build.gradle
-gradle.properties
