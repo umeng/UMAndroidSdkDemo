@@ -1,17 +1,13 @@
 *.iml
 .gradle
 /local.properties
-/.idea/workspace.xml
-/.idea/libraries
+/.idea/**
 .DS_Store
 /build
 /captures
 .externalNativeBuild
-.idea/gradle.xml
-.idea/modules.xml
 settings.gradle
 PushSDK/build/**
-.idea/misc.xml
 app/bin
 PushSDK/bin/**
 PushSDK/.settings/**
@@ -19,6 +15,5 @@ PushSDK/.project
 PushSDK/.classpath
 app/project.properties
 app/gen/**
-.idea/vcs.xml
 app/build.gradle
 gradle.properties
