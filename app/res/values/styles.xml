@@ -1,0 +1,9 @@
+<resources>
+    <style name="button_allgrade_content">
+        <item name="android:layout_margin">1dip</item>
+        <item name="android:background">#ffffff</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+</resources>

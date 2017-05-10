@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="linkedin_showword">LinkedIn</string>
+    <string name="linkedin_no_client">未安装LinkedIn客户端</string>
+    <string name="linkedin_content">linked只支持纯文本分享</string>
+    <string name="update_linkedin_app_title">Update LinkedIn app</string>
+    <string name="update_linkedin_app_message">To connect with LinkedIn you need to update LinkedIn app. Would you like to do it?</string>
+    <string name="update_linkedin_app_download">Download</string>
+    <string name="update_linkedin_app_cancel">Cancel</string>
+</resources>

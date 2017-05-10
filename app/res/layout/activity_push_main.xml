@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/normalback"
+    android:orientation="vertical"
+    tools:context="com.umeng.message.example.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:background="#333333"
+        android:fadeScrollbars="false"
+        android:fillViewport="true">
+
+        <TextView
+            android:id="@+id/log"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textIsSelectable="true" />
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.3"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/um_etalias"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:focusableInTouchMode="true"
+            android:hint="@string/edalias"
+            android:textColor="@color/black"
+            android:textColorHint="#707070"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#EAEAEA" />
+
+        <EditText
+            android:id="@+id/um_etaliastype"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:focusableInTouchMode="true"
+            android:hint="@string/edaliasType"
+            android:textColor="@color/black"
+            android:textColorHint="@color/hintcolor"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/presstrue" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:background="#EAEAEA"
+        android:orientation="vertical"
+        android:stretchColumns="3">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/um_addtags"
+                style="@style/button_allgrade_content"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/select"
+                android:scaleType="fitXY"
+                android:src="@drawable/umeng_addtags" />
+
+            <ImageButton
+                android:id="@+id/um_delettags"
+                style="@style/button_allgrade_content"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/select"
+                android:scaleType="fitXY"
+                android:src="@drawable/umeng_delettags" />
+
+            <ImageButton
+                android:id="@+id/um_listtags"
+                style="@style/button_allgrade_content"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/select"
+                android:scaleType="fitXY"
+                android:src="@drawable/umeng_listtags" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1_1"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/um_setalias"
+                style="@style/button_allgrade_content"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/umeng_addalias"
+                android:background="@drawable/select"
+                android:scaleType="fitXY"/>
+
+            <ImageButton
+                android:id="@+id/um_aliastype"
+                style="@style/button_allgrade_content"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/select"
+                android:scaleType="fitXY"
+                android:src="@drawable/umeng_aliastype" />
+
+            <ImageButton
+                android:id="@+id/um_exclalias"
+                style="@style/button_allgrade_content"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/select"
+                android:scaleType="fitXY"
+                android:src="@drawable/umeng_exclalias" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1_2"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/umeng_deletalias"
+                style="@style/button_allgrade_content"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/select"
+                android:scaleType="fitXY"
+                android:src="@drawable/umeng_deletalias" />
+
+            <ImageButton
+                android:id="@+id/umeng_serialnet"
+                style="@style/button_allgrade_content"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/select"
+                android:scaleType="fitXY"
+                android:src="@drawable/umeng_serialnet"
+                android:visibility="visible" />
+
+            <ImageButton
+                android:id="@+id/um_appinfo"
+                style="@style/button_allgrade_content"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/select"
+                android:scaleType="fitXY"
+                android:src="@drawable/umeng_appinfo" />
+
+
+        </TableRow>
+
+    </TableLayout>
+
+
+</LinearLayout>
