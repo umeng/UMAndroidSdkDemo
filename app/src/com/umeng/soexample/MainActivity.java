@@ -37,7 +37,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         mAnalyticsButton.setOnClickListener(this);
         mShareButton = (Button) findViewById(R.id.um_share_entrance);
         mShareButton.setOnClickListener(this);
-        mShareButton.setVisibility(View.GONE);
+        //mShareButton.setVisibility(View.GONE);
     }
 
     @Override
