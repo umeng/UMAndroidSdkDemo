@@ -45,7 +45,7 @@
     <string name="facebook_app_id">1266254913438718</string>
 
 
-    <string name="umeng_update_content">版本号：6.4.3\n1.修复了反馈中空指针的bug\n2.增加了微信分享小程序的功能\n3.解决了部分已知bug</string>
+    <string name="umeng_update_content">版本号：6.5.0\n1.Dplus合并\n2.facebook没有客户端也可以进行分享\n3.twitter没有客户端也可以进行分享</string>
     <string name="umeng_home_title">U-Share产品Demo</string>
     <string name="umeng_home_update">新版更新内容</string>
     <string name="umeng_share_title">分享</string>
