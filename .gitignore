@@ -8,6 +8,7 @@
 .externalNativeBuild
 PushSDK/build/**
 app/bin
+app/.classpath
 PushSDK/bin/**
 PushSDK/.settings/**
 PushSDK/.project
