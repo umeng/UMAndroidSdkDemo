@@ -35,16 +35,15 @@ public class CommonApplication extends Application {
         super.onCreate();
 
         //设置LOG开关，默认为false
+
         UMConfigure.setLogEnabled(true);
-        //初始化组件化－基础库
+        //初始化组件化基础库, 统计SDK/推送SDK/分享SDK都必须调用此初始化接口 
         UMConfigure.init(this, "58edcfeb310c93091c000be2", "Umeng", UMConfigure.DEVICE_TYPE_PHONE, "1fe6a20054bcef865eeb0991ee84525b");
 
-        //开启debug模式，方便定位错误，具体错误检查方式可以查看http://dev.umeng.com/social/android/quick-integration的报错必看，正式发布，请关闭该模式
+        //开启ShareSDK debug模式，方便定位错误，具体错误检查方式可以查看http://dev.umeng.com/social/android/quick-integration的报错必看，正式发布，请关闭该模式
         Config.DEBUG = true;
-        QueuedWork.isUseThreadPool = false;
-        UMShareAPI.get(this);
 
-
+        // PushSDK初始化(如使用推送SDK，必须调用此方法)
         initUpush();
     }
 
