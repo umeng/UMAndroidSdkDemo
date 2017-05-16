@@ -13,3 +13,7 @@ PushSDK/.settings/**
 PushSDK/.project
 PushSDK/.classpath
 app/gen/**
+ShareSDK/bin/**
+ShareSDK/.settings/**
+ShareSDK/.project
+ShareSDK/.classpath
