@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#33000000">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_margin="50dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp">
+
+            <ImageView
+                android:id="@+id/umeng_card_message_image"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:scaleType="centerInside"/>
+
+            <Button
+                android:id="@+id/umeng_card_message_ok"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/umeng_card_message_image"
+                android:layout_marginTop="20dp"
+                android:text="确定"/>
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/umeng_card_message_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            android:text="关闭"/>
+
+    </FrameLayout>
+
+</RelativeLayout>
