@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="repeatingUnit">
+	    <item>年</item>  
+	    <item>月</item>  
+	    <item selected="true">日</item>
+		<item>小时</item>  
+	    <item>分钟</item>  
+	    <item>秒</item>
+	</string-array>
+	
+	<string-array name="specialDay">  
+	    <item></item>
+	    <item>元旦</item>  
+	    <item>除夕</item>    
+	    <item>春节</item>  
+	    <item>元宵节</item>
+	    <item>清明节</item>
+	    <item>劳动节</item>    
+	    <item>端午节</item>
+		<item>七夕节</item>  
+	    <item>中秋节</item>
+	    <item>国庆节</item>   
+	    <item>重阳节</item>
+	    <item>腊八节</item>
+	</string-array> 
+	
+	<string-array name="playVibrate">
+	    <item>true</item>
+	    <item>false</item>
+	</string-array>
+	
+	<string-array name="playLights">
+	    <item>true</item>
+	    <item>false</item>
+	</string-array>
+	
+	<string-array name="playSound">
+	    <item>true</item>
+	    <item>false</item>
+	</string-array>
+	
+	<string-array name="screenOn">
+	    <item>true</item>
+	    <item>false</item>
+	</string-array>
+</resources>

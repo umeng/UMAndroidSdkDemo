@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/umeng_white"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/titlebar"
+        layout="@layout/titlebar_share" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:id="@+id/umeng_clear"
+        android:text="清除信息"
+        android:textColor="@color/umeng_text_color"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/title_bar"
+        android:gravity="center"
+        android:background="@color/umeng_white"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:id="@+id/umeng_copy"
+        android:text="复制"
+        android:textColor="@color/umeng_text_color"
+        android:layout_marginLeft="100dp"
+        android:layout_below="@id/title_bar"
+        android:gravity="center"
+        android:background="@color/umeng_white"
+        />
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:id="@+id/getbtn"
+        android:text="获取"
+        android:background="@drawable/editbg"
+        android:textColor="@color/umeng_white"
+        android:layout_alignTop="@id/umeng_clear"
+       android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/result"
+        android:background="@color/umeng_background"
+        android:text="结果："
+        android:textColor="@color/umeng_text_color"
+        android:layout_below="@id/umeng_clear"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="30dp"
+        android:scrollbars = "vertical"
+        android:scrollbarStyle="insideOverlay"
+        android:layout_height="match_parent" />
+</RelativeLayout>
