@@ -3,7 +3,7 @@
     <string name="um_common_entrance_name">集成组件化－统计</string>
     <string name="um_analytics_entrance_name">集成组件化－推送</string>
     <string name="um_share_entrance_name">集成组件化－分享</string>
-
+    <string name="um_error_entrance_name">集成组件化－错误</string>
 
     <!--统计SDK字段 start-->
     <string name="online_config">在线参数</string>
@@ -126,4 +126,9 @@
     <string name="edaliasType">Alias Type</string>
 
     <!-- push end -->
+
+    <!--统计SDK字段 start-->
+    <string name="java_name">java异常</string>
+    <string name="cpp_name">cpp异常</string>
+    <!--统计SDK字段 end-->
 </resources>

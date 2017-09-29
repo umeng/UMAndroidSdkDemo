@@ -35,7 +35,11 @@ android {
             keyPassword "android"
         }
     }
-
+    externalNativeBuild {
+        cmake {
+            path "CMakeLists.txt"
+        }
+    }
     sourceSets {
         main {
             manifest.srcFile 'AndroidManifest.xml'
@@ -80,5 +84,5 @@ dependencies {
 //    libcomCompile project(':ShareSource_sina_simple')
 //    libcomCompile project(':umeng_social_api')
 //    libcomCompile project(':fakev4')
-
+    compile files('libs/umerror_android_1.0.0.jar')
 }

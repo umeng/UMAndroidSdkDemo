@@ -9,7 +9,7 @@ import android.widget.Button;
 
 import com.umeng.analytics.AnalyticsMainActivity;
 import com.umeng.soexample.share.HomeActivity;
-
+import com.umeng.error.ErrorActivity;
 public class MainActivity extends Activity implements View.OnClickListener {
 
     private static final String TAG = "MainActivity";
@@ -19,6 +19,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     private Button mAnalyticsButton;
     private Button mPushButton;
     private Button mShareButton;
+    private Button mErrorButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +38,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
         mPushButton.setOnClickListener(this);
         mShareButton = (Button) findViewById(R.id.um_share_entrance);
         mShareButton.setOnClickListener(this);
+        mErrorButton = (Button) findViewById(R.id.um_error_entrance);
+        mErrorButton.setOnClickListener(this);
     }
 
     @Override
@@ -54,6 +57,10 @@ public class MainActivity extends Activity implements View.OnClickListener {
             case R.id.um_share_entrance:
                 Intent intentShare = new Intent(MainActivity.this, HomeActivity.class);
                 MainActivity.this.startActivity(intentShare);
+                break;
+            case R.id.um_error_entrance:
+                Intent intentError = new Intent(MainActivity.this, ErrorActivity.class);
+                MainActivity.this.startActivity(intentError);
                 break;
         }
     }

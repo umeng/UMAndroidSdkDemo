@@ -241,6 +241,11 @@
 
         <receiver android:name="com.umeng.message.example.NotificationBroadcast" />
         <!-- push end -->
+        <!--error Demo相关 start-->
+        <activity
+            android:name="com.umeng.error.ErrorActivity"
+            android:theme="@android:style/Theme.Wallpaper.NoTitleBar" />
+        <!--error Demo相关 end-->
     </application>
 
 </manifest>
