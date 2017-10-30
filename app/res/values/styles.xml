@@ -1,0 +1,13 @@
+<resources>
+    <style name="button_allgrade_content">
+        <item name="android:layout_margin">1dip</item>
+        <item name="android:background">#ffffff</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="Theme_Umeng_Push_Splash" parent="android:Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@drawable/umeng_push_default_splash_bg</item>
+    </style>
+
+</resources>

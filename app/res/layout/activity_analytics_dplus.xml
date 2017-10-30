@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="10dp"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_ana"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/umeng_example_analytics_signin"
+                android:onClick="onButtonClick"
+                android:text="@string/signin" />
+
+            <Button
+                android:id="@+id/umeng_example_analytics_signoff"
+                android:onClick="onButtonClick"
+                android:text="@string/signoff" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/umeng_example_analytics_event"
+                android:onClick="onButtonClick"
+                android:text="@string/normal_event" />
+
+            <Button
+                android:id="@+id/umeng_example_analytics_ekv"
+                android:onClick="onButtonClick"
+                android:text="@string/kv_event" />
+        </TableRow>
+
+        <Button
+            android:id="@+id/umeng_example_analytics_duration"
+            android:layout_width="fill_parent"
+            android:onClick="onButtonClick"
+            android:text="@string/event_duration" />
+
+        <Button
+            android:id="@+id/umeng_example_analytics_make_crash"
+            android:onClick="onButtonClick"
+            android:text="@string/make_crash" />
+
+        <Button
+            android:id="@+id/umeng_example_analytics_js_analytic"
+            android:onClick="onButtonClick"
+            android:text="@string/js_in_webview" />
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/umeng_example_analytics_fragment_stack"
+                android:layout_width="fill_parent"
+                android:onClick="onButtonClick"
+                android:text="@string/page_stack" />
+
+            <Button
+                android:id="@+id/umeng_example_analytics_fragment_tabs"
+                android:layout_width="fill_parent"
+                android:onClick="onButtonClick"
+                android:text="@string/page_tabs" />
+        </TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_dplus"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/umeng_example_event_dplus_nomal"
+                android:layout_width="fill_parent"
+                android:onClick="onButtonClick"
+                android:text="@string/event_dplus_nomal" />
+
+            <Button
+                android:id="@+id/umeng_example_event_dplus"
+                android:layout_width="fill_parent"
+                android:onClick="onButtonClick"
+                android:text="@string/event_dplus" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/umeng_example_dplus_set_supper"
+                android:onClick="onButtonClick"
+                android:text="@string/set_supper" />
+
+            <Button
+                android:id="@+id/umeng_example_dplus_get_suppers"
+                android:layout_width="fill_parent"
+                android:onClick="onButtonClick"
+                android:text="@string/get_suppers" />
+        </TableRow>
+
+
+        <Button
+            android:id="@+id/umeng_example_clear_suppers"
+            android:onClick="onButtonClick"
+            android:text="@string/clear_suppers" />
+
+        <Button
+            android:id="@+id/umeng_example_first_launch_event"
+            android:onClick="onButtonClick"
+            android:text="@string/set_first_launch_event" />
+
+    </TableLayout>
+
+</ScrollView>
