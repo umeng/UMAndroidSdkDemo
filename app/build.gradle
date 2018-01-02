@@ -83,5 +83,4 @@ dependencies {
     //    libcomCompile project(':umeng_social_api')
     //    libcomCompile project(':fakev4')
     compile files('libs/umerror_android_1.0.0.jar')
-    compile files('libs/umeng-common-1.4.0.jar')
 }
